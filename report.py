@@ -15,7 +15,7 @@ class reports(threading.Thread):
 		self.pw = pw
 		self.tg = target
 	def run(self):
-		br = mechanize.Browser()
+		br = mechanize.Browser() 
 		url="https://mbasic.facebook.com"
 		br.set_handle_equiv(True)
 		br.set_handle_referer(True)
